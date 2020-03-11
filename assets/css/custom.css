@@ -6,7 +6,7 @@
 body {
   padding-top: 60px;
   font-family: 'Roboto', sans-serif;
-  color: #010e28;
+  color: #031c4e;
 }
 
 h1 {
@@ -20,14 +20,15 @@ h2 {
 
 }
 
-h3,
+h3 {
+  font-weight: 700;
+  font-size: 36px;
+}
 h4,
 h5,
 h6 {
   font-weight: 700;
-
 }
-
 
 a {
   color:#0069ff;
@@ -46,9 +47,16 @@ a.text-decoration {
 /* UTILITIES */
 
 .color-blue {
+  color: #031c4e;
+}
+
+.color-l-blue {
   color: #0069ff;
 }
 
+.color-light-blue {
+  color: #586686;
+}
 .color-black {
   color: #010e28;
 }
@@ -88,7 +96,10 @@ a.text-decoration {
   font-weight: 500;
 }
 
-
+p.lead {
+  font-size: 20px;
+  font-weight: 500;
+}
 
 /* BUTTON */
 
@@ -138,7 +149,9 @@ a.text-decoration {
   font-weight: 700;
   color: gray;
 }
-
+.padding-t-40 {
+  padding-top: 40px;
+}
 /* MAIN HEADER */
 #main-header {
     width: 100%;
@@ -183,6 +196,7 @@ span#logo {
   background: url('../img/bg-banner-home.jpg');
   background-position: 100% 100%;
   padding: 60px 10px;
+  margin: 0;
 }
 
 .jumbotron h1 {
@@ -221,9 +235,91 @@ span#logo {
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
+/* INNOVATIVE-BUSINESS */
+#innovative-business,
+#designed-for-devs {
+  padding: 20px 10px;
+  background: #f3f5f9;
+}
+
+/* DEPLOY-AND-SCALE */
+#deploy-and-scale,
+#features-your-business {
+  padding: 20px 10px;
+  background: #fff;
+}
+
+.list-app>li {
+  width: calc(100% / 6 - 10px);
+}
+
+.list-app>li img {
+  max-width: 100%;
+}
+
+/* DESIGNED-FOR-DEVS */
+
+/* SLIDER */
+
+.slider {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+.arrow-left {
+  left: -40px;
+}
+.arrow-right {
+  right: -60px;
+}
+
+ul.slider-list li {
+  width: 15px;
+  border: 1px solid #0069ff;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.slider-nav {
+  padding-top: 15px;
+}
+
+.active {
+  background: #0069ff;
+}
+
 /* MEDIA QUERIES */
 @media all and (min-width:768px) and (max-width:1199px) {
   #toggle-menu {
     right: 30px;
   }
+}
+
+@media all and (max-width:468px) {
+  .list-app>li {
+    width: calc(100% / 2 - 10px);
+  }
+
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+  .arrow-left {
+    left: -25px;
+  }
+  .arrow-right {
+    right: -45px;
+  }
+
 }
