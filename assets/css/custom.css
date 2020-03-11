@@ -149,6 +149,15 @@ p.lead {
   font-weight: 700;
   color: gray;
 }
+
+.padding-t-10 {
+  padding-top: 10px;
+}
+
+.padding-t-20 {
+  padding-top: 20px;
+}
+
 .padding-t-40 {
   padding-top: 40px;
 }
@@ -235,18 +244,29 @@ span#logo {
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-/* INNOVATIVE-BUSINESS */
+/* ----- SECTIONS PADDING AND BG  ----- *
+/
+/* SECTIONS  #f3f5f9 */
 #innovative-business,
 #designed-for-devs {
-  padding: 20px 10px;
+  padding: 40px 10px;
   background: #f3f5f9;
 }
 
-/* DEPLOY-AND-SCALE */
+/* SECTIONS #FFF */
 #deploy-and-scale,
 #features-your-business {
-  padding: 20px 10px;
+  padding: 40px 10px;
   background: #fff;
+}
+
+#service-your-costumers {
+  padding: 20px 10px;
+  background: linear-gradient(57deg, #0044c3,#00209b);
+}
+
+#service-your-costumers a {
+  color: #00c7cf;
 }
 
 .vertical-list {
@@ -269,8 +289,6 @@ span#logo {
 .list-app>li img {
   max-width: 100%;
 }
-
-/* DESIGNED-FOR-DEVS */
 
 /* SLIDER */
 
@@ -299,6 +317,7 @@ ul.slider-list li {
   border: 1px solid #0069ff;
   padding: 7px;
   border-radius: 50%;
+  margin-right: 5px;
 }
 
 .slider-nav {
@@ -307,6 +326,12 @@ ul.slider-list li {
 
 .active {
   background: #0069ff;
+}
+
+/* features-your-business */
+#features-your-business p {
+    font-weight: 500;
+    font-size: 16px;
 }
 
 /* MEDIA QUERIES */
