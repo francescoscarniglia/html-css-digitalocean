@@ -1,0 +1,97 @@
+/* FONT ROBOTO W= 400,500,700,900 */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+/* GENERAL RULES */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #010e28;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -1.55px;
+  line-height: 1.18;
+
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+
+}
+
+
+a {
+  color:#0069ff;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: gray;
+}
+
+/* UTILITIES */
+
+.color-blue {
+  color: #0069ff;
+}
+
+.color-black {
+  color: #010e28;
+}
+
+.color-gray {
+  color: gray;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.small-text-gray {
+  font-size: 14px;
+  color: gray;
+}
+
+/* BUTTON */
+
+.btn-primary-inverse {
+  background: transparent;
+  border: 1px solid #0069ff;
+  color: #0069ff;
+  padding: 8px 16px;
+}
+
+.btn-primary-inverse:hover,
+.btn-primary-inverse:active,
+.btn-primary-inverse:focus {
+  background: #0069ff;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-primary {
+  background: #0069ff;
+  border: 1px solid #0069ff;
+  color: #fff;
+  padding: 8px 16px;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background: #fff;
+  color: #0069ff;
+  border: 1px solid #0069ff;
+}
