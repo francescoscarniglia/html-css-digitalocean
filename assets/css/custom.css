@@ -376,6 +376,22 @@ ul.slider-list li {
   border-bottom:1px solid #fff;
 }
 
+#main-footer {
+  padding: 40px 10px;
+  background: #031c4e;
+  color: #fff;
+}
+
+.vertical-list-footer {
+  list-style: none;
+  padding: 0;
+}
+
+.vertical-list-footer li {
+
+  font-size: 16px;
+}
+
 /* MEDIA QUERIES */
 @media all and (min-width:768px) and (max-width:1199px) {
   #toggle-menu {
