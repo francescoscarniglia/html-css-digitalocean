@@ -220,3 +220,10 @@ span#logo {
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
+
+/* MEDIA QUERIES */
+@media all and (min-width:768px) and (max-width:1199px) {
+  #toggle-menu {
+    right: 30px;
+  }
+}
