@@ -17,13 +17,13 @@ h1 {
 
 h2 {
   font-weight: 700;
-
 }
 
 h3 {
   font-weight: 700;
   font-size: 26px;
 }
+
 h4,
 h5,
 h6 {
@@ -110,7 +110,6 @@ p.lead {
   transform: translate(-50%, -50%);
 }
 
-
 /* BUTTON */
 
 .btn-primary-inverse {
@@ -177,6 +176,7 @@ p.lead {
   padding-top: 40px;
 
 }
+
 /* MAIN HEADER */
 #main-header {
     width: 100%;
@@ -228,9 +228,6 @@ span#logo {
   font-size: 48px;
   line-height: 56px;
 }
-
-
-
 
 .jumbotron-in {
   padding: 10px;
@@ -289,94 +286,6 @@ span#logo {
   color: #00c7cf;
 }
 
-.vertical-list {
-  list-style: none;
-  padding: 0;
-}
-
-.vertical-list li {
-  border-left: 1px solid #d6d6d6;
-  line-height: 30px;
-  padding-left: 12px;
-  font-weight: 500;
-  color: #586686;
-  font-size: 16px;
-}
-
-.list-app>li {
-  width: calc(100% / 6 - 10px);
-}
-
-.list-app>li img {
-  max-width: 100%;
-}
-
-/* SLIDER */
-
-.slider {
-  width: 100%;
-  height: 100%;
-
-
-}
-
-.slider-item {
-  background: #fff;
-  width: 100%;
-  height: 300px;
-  position: relative;
-
-}
-
-
-.arrow-left,
-.arrow-right {
-  position: absolute;
-  top: 45%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
-}
-.arrow-left {
-  left: -40px;
-}
-.arrow-right {
-  right: -60px;
-}
-
-ul.slider-list li {
-  width: 15px;
-  border: 1px solid #0069ff;
-  padding: 7px;
-  border-radius: 50%;
-  margin-right: 5px;
-}
-
-.slider-nav {
-  padding-top: 15px;
-
-}
-
-
-.active {
-  background: #0069ff;
-}
-
-/* features-your-business */
-#features-your-business p {
-    font-weight: 500;
-    font-size: 16px;
-}
-
-/* TABLE */
-.table {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 0px;
-}
-
-.table tr:nth-last-of-type(1) {
-  border-bottom:1px solid #fff;
-}
 
 #main-footer {
   padding: 40px 10px;
@@ -405,6 +314,39 @@ ul.slider-list li {
   color: #0069ff;
 }
 
+#chat {
+  width: 400px;
+  height: 70px;
+  position: fixed;
+  bottom:0;
+  right: 0;
+
+}
+
+/* ------- LIST ------------ */
+
+.vertical-list {
+  list-style: none;
+  padding: 0;
+}
+
+.vertical-list li {
+  border-left: 1px solid #d6d6d6;
+  line-height: 30px;
+  padding-left: 12px;
+  font-weight: 500;
+  color: #586686;
+  font-size: 16px;
+}
+
+.list-app>li {
+  width: calc(100% / 6 - 10px);
+}
+
+.list-app>li img {
+  max-width: 100%;
+}
+
 .vertical-list-footer {
   list-style: none;
   padding: 0;
@@ -414,6 +356,72 @@ ul.slider-list li {
 
   font-size: 16px;
 }
+
+/* SLIDER */
+
+.slider {
+  width: 100%;
+  height: 100%;
+}
+
+.slider-item {
+  background: #fff;
+  width: 100%;
+  height: 300px;
+  position: relative;
+
+}
+
+/* ----- arrows slider ------ */
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+.arrow-left {
+  left: -40px;
+}
+.arrow-right {
+  right: -60px;
+}
+
+ul.slider-list li {
+  width: 15px;
+  border: 1px solid #0069ff;
+  padding: 7px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.slider-nav {
+  padding-top: 15px;
+
+}
+
+.active {
+  background: #0069ff;
+}
+
+/* features-your-business */
+#features-your-business p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* TABLE */
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+
+.table tr:nth-last-of-type(1) {
+  border-bottom:1px solid #fff;
+}
+
 
 /* TOOLTIP STYLES */
 
@@ -444,14 +452,8 @@ ul.slider-list li {
   transform: rotate(45deg);
 }
 
-#chat {
-  width: 400px;
-  height: 70px;
-  position: fixed;
-  bottom:0;
-  right: 0;
 
-}
+/*-------  chat shark and badge ---------- */
 
 .shark {
   display: inline-block;
