@@ -160,6 +160,11 @@ p.lead {
   color: gray;
 }
 
+.btn-default {
+  color: #0069ff;
+  font-weight: 500;
+}
+
 .padding-t-10 {
   padding-top: 10px;
 }
@@ -272,7 +277,8 @@ span#logo {
   background: #fff;
 }
 
-#service-your-costumers {
+#service-your-costumers,
+#get-started-now {
   padding: 40px 10px;
   background: linear-gradient(57deg, #0044c3,#00209b);
 }
