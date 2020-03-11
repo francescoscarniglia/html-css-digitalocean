@@ -127,11 +127,11 @@ span#logo {
 }
 
 /* MEDIA QUERIES */
-@media all and (max-width:768px) {
+
+@media all and (max-width:1199px) {
   #toggle-menu {
     display: block;
   }
-
   .display-desk {
     display: none;
   }
