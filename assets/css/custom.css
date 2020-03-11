@@ -4,6 +4,7 @@
 /* GENERAL RULES */
 
 body {
+  padding-top: 70px;
   font-family: 'Roboto', sans-serif;
   color: #010e28;
 }
@@ -56,14 +57,30 @@ a:active {
 }
 
 .color-white {
-  color: #fff;
+  color: #fff!important;
+}
+
+.addon {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+
+.addon img {
+  width: 20px;
 }
 
 .small-text-gray {
   font-size: 14px;
   color: gray;
 }
+.xx-text {
+  font-size: 12px!important;
+}
 
+.relative {
+  position: relative;
+}
 /* BUTTON */
 
 .btn-primary-inverse {
@@ -96,11 +113,31 @@ a:active {
   border: 1px solid #0069ff;
 }
 
+.btn-primary-lg {
+  background: #0069ff;
+  border: 1px solid #0069ff;
+  color: #fff;
+  padding: 2px 8px;
+  width: 100%;
+}
+
+.btn-default-lg {
+  padding: 5px 8px;
+  box-shadow: 1px 1px #d6d6d6;
+  width: 100%;
+}
+
 /* MAIN HEADER */
 #main-header {
-  padding: 20px 10px;
-  font-weight: 700;
+    width: 100%;
+    position: fixed;
+    top: 10px;
+    font-weight: 700;
+    height: 70px;
+    background: #fff;
+    z-index: 1;
 }
+
 
 /* TOGGLE MENU */
 #toggle-menu {
@@ -110,7 +147,7 @@ a:active {
   top: 20px;
   right: 10px;
   background: #fff;
-  display: none;
+  z-index: 2;
 }
 
 /* LOGO */
@@ -126,13 +163,21 @@ span#logo {
   vertical-align: middle;
 }
 
-/* MEDIA QUERIES */
+/* JUMBOTRON */
+.jumbotron {
+  background: url('../img/bg-banner-home.jpg');
+  background-position: 100% 100%;
+  padding: 20px 20px;
 
-@media all and (max-width:1199px) {
-  #toggle-menu {
-    display: block;
-  }
-  .display-desk {
-    display: none;
-  }
+}
+
+.jumbotron-in {
+  padding: 10px;
+}
+
+/* FORM */
+.form-horizontal {
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
 }
