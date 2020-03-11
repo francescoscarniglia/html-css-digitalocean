@@ -413,6 +413,73 @@ ul.slider-list li {
   font-size: 16px;
 }
 
+/* TOOLTIP STYLES */
+
+.tooltip-new {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 300px;
+  padding: 10px;
+  background: #fff;
+  line-height: 1.45;
+  border-radius: 5px;
+  /* Ombreggiatura */
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+  /* box-shadow: 0 0 8px 5px rgba(0,0,0, .1); */
+
+}
+
+.tooltip-new::before {
+  content: '';
+  position: absolute;
+  bottom: 15px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  /* Rotazione */
+  transform: rotate(45deg);
+}
+
+#chat {
+  width: 400px;
+  height: 70px;
+  position: fixed;
+  bottom:0;
+  right: 0;
+
+}
+
+.shark {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-left: 15px;
+  background: #006aff url('../img/chat-img.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+.shark-badge {
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(50%);
+  border: 3px solid #fff;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  background: red;
+}
+
+
 /* MEDIA QUERIES */
 @media all and (min-width:768px) and (max-width:1199px) {
   #toggle-menu {
@@ -441,6 +508,15 @@ ul.slider-list li {
 
   #devs-team img {
     max-width: 90%;
+  }
+
+  #chat {
+    height: 70px;
+    position: fixed;
+    bottom: 5px;
+    right: 18px;
+    width: 90%;
+    display: inline-flex;
   }
 
 }
