@@ -70,7 +70,7 @@ a:active {
   background: transparent;
   border: 1px solid #0069ff;
   color: #0069ff;
-  padding: 8px 16px;
+  padding: 2px 8px;
 }
 
 .btn-primary-inverse:hover,
@@ -85,7 +85,7 @@ a:active {
   background: #0069ff;
   border: 1px solid #0069ff;
   color: #fff;
-  padding: 8px 16px;
+  padding: 2px 8px;
 }
 
 .btn-primary:hover,
@@ -94,4 +94,45 @@ a:active {
   background: #fff;
   color: #0069ff;
   border: 1px solid #0069ff;
+}
+
+/* MAIN HEADER */
+#main-header {
+  padding: 20px 10px;
+  font-weight: 700;
+}
+
+/* TOGGLE MENU */
+#toggle-menu {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  background: #fff;
+  display: none;
+}
+
+/* LOGO */
+
+img.logo-img {
+  width: 30px;
+}
+
+span#logo {
+  color:#0080ff;
+  font-size: 20px;
+  font-weight: 900;
+  vertical-align: middle;
+}
+
+/* MEDIA QUERIES */
+@media all and (max-width:768px) {
+  #toggle-menu {
+    display: block;
+  }
+
+  .display-desk {
+    display: none;
+  }
 }
