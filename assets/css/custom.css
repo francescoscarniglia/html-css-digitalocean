@@ -101,6 +101,16 @@ p.lead {
   font-weight: 500;
 }
 
+.position-center {
+  position: absolute;
+  top:35%;
+  width: 90%;
+  left: 50%;
+  height: 100px;
+  transform: translate(-50%, -50%);
+}
+
+
 /* BUTTON */
 
 .btn-primary-inverse {
@@ -160,6 +170,7 @@ p.lead {
 
 .padding-t-40 {
   padding-top: 40px;
+
 }
 /* MAIN HEADER */
 #main-header {
@@ -248,7 +259,8 @@ span#logo {
 /
 /* SECTIONS  #f3f5f9 */
 #innovative-business,
-#designed-for-devs {
+#designed-for-devs,
+#devs-team {
   padding: 40px 10px;
   background: #f3f5f9;
 }
@@ -261,7 +273,7 @@ span#logo {
 }
 
 #service-your-costumers {
-  padding: 20px 10px;
+  padding: 40px 10px;
   background: linear-gradient(57deg, #0044c3,#00209b);
 }
 
@@ -271,6 +283,7 @@ span#logo {
 
 .vertical-list {
   list-style: none;
+  padding: 0;
 }
 
 .vertical-list li {
@@ -295,8 +308,18 @@ span#logo {
 .slider {
   width: 100%;
   height: 100%;
-  position: relative;
+
+
 }
+
+.slider-item {
+  background: #fff;
+  width: 100%;
+  height: 300px;
+  position: relative;
+
+}
+
 
 .arrow-left,
 .arrow-right {
@@ -322,7 +345,9 @@ ul.slider-list li {
 
 .slider-nav {
   padding-top: 15px;
+
 }
+
 
 .active {
   background: #0069ff;
@@ -332,6 +357,17 @@ ul.slider-list li {
 #features-your-business p {
     font-weight: 500;
     font-size: 16px;
+}
+
+/* TABLE */
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+
+.table tr:nth-last-of-type(1) {
+  border-bottom:1px solid #fff;
 }
 
 /* MEDIA QUERIES */
@@ -354,10 +390,14 @@ ul.slider-list li {
     font-size: 50px;
   }
   .arrow-left {
-    left: -25px;
+    left: -10px;
   }
   .arrow-right {
-    right: -45px;
+    right: -35px;
+  }
+
+  #devs-team img {
+    max-width: 90%;
   }
 
 }
