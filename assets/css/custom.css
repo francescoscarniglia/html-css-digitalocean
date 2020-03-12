@@ -388,6 +388,20 @@ span#logo {
   right: -60px;
 }
 
+.arrow-left-2,
+.arrow-right-2 {
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+.arrow-left-2 {
+  left: -40px;
+}
+.arrow-right-2 {
+  right: -60px;
+}
+
 ul.slider-list li {
   width: 15px;
   border: 1px solid #0069ff;
@@ -510,6 +524,20 @@ ul.slider-list li {
   }
   .arrow-right {
     right: -35px;
+  }
+
+  .arrow-left-2,
+  .arrow-right-2 {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+  .arrow-left-2 {
+    left: -20px;
+  }
+  .arrow-right-2 {
+    right: -45px;
   }
 
   #devs-team img {
