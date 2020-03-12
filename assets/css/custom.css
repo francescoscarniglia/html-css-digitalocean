@@ -553,4 +553,8 @@ ul.slider-list li {
     display: inline-flex;
   }
 
+  #main-footer {
+    padding-bottom: 80px;
+  }
+
 }
