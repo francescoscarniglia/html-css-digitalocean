@@ -506,6 +506,15 @@ ul.slider-list li {
   #toggle-menu {
     right: 30px;
   }
+  #chat {
+    height: 70px;
+    position: fixed;
+    bottom: 5px;
+    left: 10px;
+    width: 90%;
+    
+  }
+
 }
 
 @media all and (max-width:468px) {
