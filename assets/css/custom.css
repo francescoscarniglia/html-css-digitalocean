@@ -497,7 +497,8 @@ ul.slider-list li {
   height: 30px;
   background: red;
   vertical-align: middle;
-  padding-top: 1px;
+  line-height: 22px;
+
 }
 
 
@@ -512,7 +513,7 @@ ul.slider-list li {
     bottom: 5px;
     left: 10px;
     width: 90%;
-    
+
   }
 
 }
